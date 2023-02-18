@@ -1,3 +1,7 @@
+html {
+  background-color: #203a5c;
+}
+
 .App {
   text-align: center;
 }
@@ -34,5 +38,125 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+#navbar{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0px;
+  flex-direction: row;
+  background-image: url("./assets/background-image.png")
+}
+
+a{
+  text-decoration: none;
+  margin: 20px;
+  font-size: larger;
+  font-family: 'Rubik', sans-serif;
+  color: antiquewhite;
+}
+
+.project-screenshot{
+  -webkit-transition : border 500ms ease-out;
+  -moz-transition: border 500ms ease-out;
+  -o-transition: border 500ms ease-out;
+}
+
+.project-screenshot:hover{
+  border: 30px solid rgb(0, 217, 255);
+}
+
+#footer-icons{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+  flex-direction: column;
+}
+
+#about-description {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+#about-text{
+  width: 33%;
+  margin: 75px 0px;
+  font-family: 'Rubik', sans-sefif;
+  color: antiquewhite;
+  font-size: larger;
+}
+
+.self{
+  border-radius: 40px;
+}
+
+.proj-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#resume-link{
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+#proj-title{
+  display: block;
+}
+
+#tech-skill{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: blue;
+  font-family: 'Rubik', sans-serif;
+  font-size: 30px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.form input, .form textarea {
+  margin-bottom: 5px;
+}
+
+#myname{
+  font-size: 50px;
+  position: absolute;
+  top: -20px;
+}
+
+#resume{
+  margin-left: 5%;
+  color: antiquewhite;
+}
+
+@media screen and (max-width: 768px){
+  #navbar {
+    margin-top: 55px;
+    flex-direction: column;
+  }
+
+  #about-text {
+    width: 50%;
+    margin: 50px, 0px;
+    font-family: 'Rubik', sans-serif;
   }
 }
