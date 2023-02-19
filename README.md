@@ -37,7 +37,7 @@ WHEN I view the footer\
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
 
 ## Link to deployed application
-
+https://saadyousafi87.github.io/React-Portfolio/
 
 ## License
 Please refer to the LICENSE in the repo.
